@@ -7,13 +7,46 @@
 
 <h1>Login</h1>
 
+
 <!-- action - where the form sends data to -->
 <!-- method - what HTTP method (get/post) -->
 <!-- the action normally sends the data to your backend server -->
 
-<form>
-	<input name="username" type="text" placeholder="username">
-	<input name="password" type="password" placeholder="password">
+
+<!-- <form action="http://www.wikipedia.org">
+	<label>
+		Username:
+		<input type="text" placeholder="username">
+	</label>
+	<label >
+		Password:
+		<input type="password" placeholder="password">
+	</label>
+	<input type="submit">
+</form> -->
+
+
+<!-- Utilized "for" and "id" for labels and inputs. Used for Screenreaders --> 
+
+
+<!-- <form action="http://www.wikipedia.org">
+
+	<label for="username">Username:</label>
+	<input id="username" type="text" placeholder="username">
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password">
+	<input type="submit">
+</form> -->
+
+
+<!-- Utilizing Form Validations -->
+
+
+<form action="http://www.wikipedia.org">
+	<label for="username">Email:</label>
+	<input id="username" type="email" placeholder="email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" placeholder="password" required>
 	<input type="submit">
 </form>
 
