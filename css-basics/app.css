@@ -1,5 +1,11 @@
 h1 {
 	color: #FF8000;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	/*Shortcut to creating borders*/
+	border: 2px solid rgb(0,0,0);
 }
 
 li{
@@ -7,5 +13,15 @@ li{
 }
 
 h4{
-	color: rgba(0,200,100, .2);
+	color: rgb(0,200,100);
+	background: rgb(0,0,0);
+}
+
+body{
+	background: pink;
+/*	background: url(https://p0.pikrepo.com/preview/382/284/closeup-photo-of-gray-wood.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
 }
