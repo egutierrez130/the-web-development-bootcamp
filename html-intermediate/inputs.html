@@ -1,0 +1,38 @@
+<!-- radio button -->
+<!-- select tag -->
+<!-- textarea tag -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Inputs Demo</title>
+</head>
+<body>
+<p>Do you prefer cats or dogs?</p>
+
+<form>
+	<label for="dogs">Dogs:</label>
+	<input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+	<label for="cats">Cats"</label>
+	<input name="petChoice" id="cats" type="radio" value="CATS">
+
+	<p>What's your current mood?</p>
+
+	<select name="mood">
+		<option value="sad">:(</option>
+		<option value="neutral">:|</option>
+		<option value="happy">:)</option>
+	</select>
+
+	<textarea name="paragraph" cols="30" rows="10"></textarea>
+
+	<button>Go!</button>
+</form>
+<!-- input name has to be the same if having people choose one option over the other -->
+<!-- if button is used at the end of the form, it will automatically submit the request -->
+<!-- assigning a "name" will allow the computer to submit and categorize our data input -->
+	
+</body>
+</html>
