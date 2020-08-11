@@ -1,0 +1,19 @@
+/*font-family*/
+
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+/*font-size*/
+
+h1 {
+	font-size: 50px;
+}
+
+span {
+	font-size: 3.0em;
+}
