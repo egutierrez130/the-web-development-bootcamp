@@ -4,9 +4,8 @@ h1 {
 	text-align: center;
 }
 
-.center {
-	margin-left: auto;
-	margin-right: auto;
+table {
+	margin: auto;
 }
 
 td {
@@ -17,4 +16,9 @@ td {
 .vertical {
 	border-left: 1px solid black;
 	border-right: 1px solid black;
+}
+
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
