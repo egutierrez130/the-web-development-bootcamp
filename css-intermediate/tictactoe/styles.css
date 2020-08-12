@@ -1,0 +1,20 @@
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
