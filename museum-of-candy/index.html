@@ -59,7 +59,7 @@
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
-            <div class="col-10 col-lg-8 blurb">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
               <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam voluptatibus perspiciatis magnam animi nam, excepturi ipsam earum veniam labore rerum nisi, nostrum quis unde aliquam quasi reiciendis illo fugiat blanditiis.</p>
@@ -70,7 +70,7 @@
       <div class="row align-items-center content">
         <div class="col-md-6 text-center">
           <div class="row justify-content-center">
-            <div class="col-10 col-lg-8 blurb">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
               <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam voluptatibus perspiciatis magnam animi nam, excepturi ipsam earum veniam labore rerum nisi, nostrum quis unde aliquam quasi reiciendis illo fugiat blanditiis.</p>
@@ -83,11 +83,11 @@
       </div>
       <div class="row align-items-center content">
         <div class="col-md-6 order-2 order-md-1">
-          <img src="imgs/milk.png" alt="" class="img-fluid">
+          <img src="imgs/sprinkles.png" alt="" class="img-fluid">
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
-            <div class="col-10 col-lg-8 blurb">
+            <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2>MUSEUM OF CANDY</h2>
               <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
               <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam voluptatibus perspiciatis magnam animi nam, excepturi ipsam earum veniam labore rerum nisi, nostrum quis unde aliquam quasi reiciendis illo fugiat blanditiis.</p>
@@ -108,5 +108,14 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script>
+      $(function () {
+        $(document).scroll(function(){
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+      })
+    </script>
   </body>
 </html>
