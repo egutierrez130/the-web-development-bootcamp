@@ -7,6 +7,7 @@ function sayHello(name){
 // Argument Examples
 // Functions can have as many arguments as needed.
 console.log("PRINTING THE AREA OF A TRIANGLE");
+
 function area(length, width){
     console.log(length * width);
 }
@@ -22,3 +23,11 @@ function greet(person1, person2, person3){
 }
 
 greet("Harry", "Ron", "Hermione");
+
+// The Return Keyword
+// Often we want a function to send back an output value
+function square(x) {
+    return x * x; 
+}
+
+var result = square(10);
