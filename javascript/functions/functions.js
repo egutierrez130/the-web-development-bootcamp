@@ -110,3 +110,41 @@ function kebabToSnake(str) {
     //return str
     return newStr;
 }
+
+
+// Intro to JS Scope
+// Scope is the context that code is executed in
+
+function doMath(){
+    var x = 40;
+    console.log(x);
+}
+
+doMath() //40
+// x will not be defined since it is not declared in the global scope.
+
+//when we define something outisde of a function, we stil have access to it inside of that function. example right below.
+var y = 99;
+
+function doMoreMath() {
+    console.logy(y);
+}
+
+//doMoreMath(); prints 99
+
+
+// Higher Order Functions 
+// definition: a function where one can pass another function to it as an argument. And we could return another function.
+// utilizing setInterval(anotherFunc, interval)
+function sing(){
+    console.log("Twinkle twinkle...");
+    console.log("how i wonder...");
+}
+
+// setInterval(sing, 1000);
+
+// we may also utilize a new function or annonymous function within the setInterval();
+setInterval(function(){
+    console.log("I am an anonymous function!");
+    console.log("This is awesome!");
+}, 2000);
