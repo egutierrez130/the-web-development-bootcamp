@@ -31,3 +31,34 @@ var random_collection =[49, true, "Hermione", null];
 // Arrays have a length property
 var nums = [45, 37, 89, 24];
 nums.lenth //4 
+
+
+// Array Methods:
+// push/pop
+// shift/unshift
+// indexOf
+// slice
+
+// push adds "green" to the end of the array.
+var colors = ["red", "orange", "yellow"];
+colors.push("green");
+// use pop to remove the last item in an array.
+colors.pop(); //["red", "orange"]
+//pop() returns the removed element
+var col = colors.pop(); //orange
+// use unshift to add to the front of an array:
+colors.unshift("infrared");
+// use shift to remove the first item in an array.
+colors.shift();
+// Use indexOf() to find the index of an item in an array
+// indexOf() can also return -1 if the element is not present.
+friends.indexOf("David"); //2
+// Use slice() to copy parts of an array
+var fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango'];
+// use slice to copy the 2nd and 3rd fruits
+//specify index where the new array starts(1) and ends(3)
+var citrus = fruits.slice(1, 3);
+
+
+
+
