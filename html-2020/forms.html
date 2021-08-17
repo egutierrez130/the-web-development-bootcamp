@@ -50,5 +50,43 @@
         <input type="text" name="search_query">
         <button>Search YouTube</button>  
     </form>
+    
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+            <!-- need to give a value to send to the server -->
+            <!-- need to give them a name to group them together, will only allow one choice -->
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="" value="xs">
+            <label for="s">Small</label>
+            <input type="radio" name="size" id="" value="s">
+            <label for="m">Medium</label>
+            <input type="radio" name="size" id="" value="m">
+        </p>
+        <p>
+            <!-- "selected" attribute will automatically populate on page -->
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg" selected>Vegeteratian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <p>
+            <!-- can give attribute "step" to select increments -->
+            <!-- value attribute will automatcially start at the selected value -->
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" min="1" max="10" value="75" name="Cheese Level">
+        </p>
+
+        <p>
+            <label for="requests">Any Special Requests?</label>
+            <textarea type="text" rows="10" cols="40" id="requests" placeholder="Type something here"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
 </body>
 </html>
