@@ -28,6 +28,8 @@ span {
 
 .post a {
     color: #457b9d;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 footer a {
@@ -48,4 +50,29 @@ input[type="password"] {
 
 a[href*="google"] {
     color: magenta;
+}
+
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
 }
