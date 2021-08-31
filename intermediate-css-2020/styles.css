@@ -76,3 +76,7 @@ p::first-line {
 p::selection {
     background-color: #fcbf49;
 }
+
+button:hover {
+    background-color: olive;
+}
